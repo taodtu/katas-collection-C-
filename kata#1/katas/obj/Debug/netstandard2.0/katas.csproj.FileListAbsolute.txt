@@ -1,0 +1,8 @@
+C:\Users\tao.li\Documents\Katas\kata#1\katas\bin\Debug\netstandard2.0\katas.deps.json
+C:\Users\tao.li\Documents\Katas\kata#1\katas\bin\Debug\netstandard2.0\katas.dll
+C:\Users\tao.li\Documents\Katas\kata#1\katas\bin\Debug\netstandard2.0\katas.pdb
+C:\Users\tao.li\Documents\Katas\kata#1\katas\obj\Debug\netstandard2.0\katas.csprojAssemblyReference.cache
+C:\Users\tao.li\Documents\Katas\kata#1\katas\obj\Debug\netstandard2.0\katas.AssemblyInfoInputs.cache
+C:\Users\tao.li\Documents\Katas\kata#1\katas\obj\Debug\netstandard2.0\katas.AssemblyInfo.cs
+C:\Users\tao.li\Documents\Katas\kata#1\katas\obj\Debug\netstandard2.0\katas.dll
+C:\Users\tao.li\Documents\Katas\kata#1\katas\obj\Debug\netstandard2.0\katas.pdb
