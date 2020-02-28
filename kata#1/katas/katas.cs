@@ -2,15 +2,12 @@
 
 namespace katas
 {
-    public class PrimeService
+    public class Katas
     {
-        public bool IsPrime(int candidate)
+        // return the remainder of the division a / b
+        public int modulo(int a, int b)
         {
-            if (candidate < 2)
-            {
-                return false;
-            }
-            throw new NotImplementedException("Not fully implemented.");
+            return a % b;
         }
     }
 }
