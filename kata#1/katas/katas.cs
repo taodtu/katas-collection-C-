@@ -5,9 +5,8 @@ namespace katas
     public class Katas
     {
         // return the remainder of the division a / b
-        public int modulo(int a, int b)
-        {
-            return a % b;
-        }
+        public int modulo(int a, int b)=>a % b;
+
+        public double squareRoot(double a) => Math.Sqrt(a);
     }
 }

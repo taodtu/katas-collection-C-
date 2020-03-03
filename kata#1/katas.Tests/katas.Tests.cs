@@ -20,5 +20,15 @@ namespace katas.Tests
             var result = _Katas.modulo(a, b);
             Assert.Equal(expected, actual: result);
         }
+
+        [Theory]
+        [InlineData(2, 4)]
+        [InlineData(3, 9)]
+        [InlineData(1, 1)]
+        public void test_squareRoot(int expected, int a)
+        {
+            var result = _Katas.squareRoot(a);
+            Assert.Equal(expected, actual: result);
+        }
     }
 }
