@@ -11,14 +11,14 @@ namespace katas.Tests
             _Katas = new Katas();
         }
 
-        [Fact]
-        public void test_modulo()
+        [Theory]
+        [InlineData(0, 4, 2)]
+        [InlineData(1, 5, 2)]
+        [InlineData(3, 7, 4)]
+        public void test_modulo(int expected, int a, int b)
         {
-            var result1 = _Katas.modulo(4, 2);
-            Assert.Equal(result1, 0);
-
-            var result2 = _Katas.modulo(7, 2);
-            Assert.Equal(result2, 0);
+            var result = _Katas.modulo(a, b);
+            Assert.Equal(expected, actual: result);
         }
     }
 }
