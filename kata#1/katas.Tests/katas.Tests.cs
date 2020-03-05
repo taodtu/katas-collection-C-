@@ -5,7 +5,6 @@ namespace katas.Tests
     public class Katas_tests
     {
         private readonly Katas _Katas;
-
         public Katas_tests()
         {
             _Katas = new Katas();
@@ -47,6 +46,15 @@ namespace katas.Tests
         public void test_putNamesTogether(string expected, string a, string b)
         {
             var result = _Katas.putNamesTogether(a, b);
+            Assert.Equal(expected, actual: result);
+        }
+        //test for capitaliseString
+        [Theory]
+        [InlineData("Taolo", "taolo")]
+        [InlineData("James", "james")]
+        public void test_capitaliseString(string expected, string a)
+        {
+            var result = _Katas.capitaliseString(a);
             Assert.Equal(expected, actual: result);
         }
     }
